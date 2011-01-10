@@ -143,7 +143,26 @@ a {
 /* end contacts */
 
 /* code */
+.code-link {
+  color: rgb(255, 230, 0);
+}
 .code-link:hover {
-  color:rgb(255, 230, 0);
+  padding: 3px;
+  border: 1px solid rgb(255, 230, 0);
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
 }
 /* code */
+
+/* start work */
+.work-link {
+  color: rgb(153, 153, 153);
+}
+.work-link:hover {
+  padding: 3px;
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 12px;
+  background-color: rgb(153, 153, 153);
+  color: rgb(255, 230, 0);
+}
+/* end work */
