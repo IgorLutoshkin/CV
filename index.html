@@ -5,23 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
     <title>CV IgorLutoshkin</title>
   </head>
 
   <body>
     <header class="head">
-      <div>
-        <h1>IgorLutoshkin</h1>
-        <span>html coder</span>
+      <div class="head-wrap">
+        <h1 class="head-title">Igor Lutoshkin</h1>
+        <span class="head-desc">HTML coder</span>
       </div>
 
-      <figure>
+      <figure class="head-pic">
         <img src="./img/my avatar.jpg" alt="my avatar" />
       </figure>
     </header>
 
     <div class="content">
       <section>
+        <h2>Education</h2>
+        <ul>
+          <li>
+            Vyatka State University, 5th year, Faculty of Engineering and Design
+            Technologies
+          </li>
+          <li>
+            Certificate:
+            <a href="https://stepik.org/cert/1569801"
+              >https://stepik.org/cert/1569801</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="about">
         <h2>About me</h2>
         <span>
           Hi, here I will tell you a little about myself. I want to be a
@@ -43,6 +65,16 @@
       </section>
 
       <section>
+        <h2>Contacts for communication</h2>
+        <ul>
+          <li>E-mail: ig.yarij@mail.ru</li>
+          <li>GitHub: https://github.com/IgorLutoshkin</li>
+          <li>VK: https://vk.com/id651344516</li>
+          <li>Stepik: https://stepik.org/users/380788903</li>
+        </ul>
+      </section>
+
+      <section>
         <h2>Work experience</h2>
         <span
           >The whole experience is linked to Github:
@@ -53,19 +85,26 @@
       </section>
 
       <section>
-        <h2>Education</h2>
-        <ul>
-          <li>
-            Vyatka State University, 5th year, Faculty of Engineering and Design
-            Technologies
-          </li>
-          <li>
-            Certificate:
-            <a href="https://stepik.org/cert/1569801"
-              >https://stepik.org/cert/1569801</a
-            >
-          </li>
-        </ul>
+        <h2>Code examples 'Codewars'</h2>
+
+        <span
+          >Given a random non-negative number, you have to return the digits of
+          this number within an array in reverse order.
+        </span>
+
+        <pre>
+            <code>function digitize(n) {
+            let a = (Array.from(String(n), Number)).reverse(); 
+            return a; 
+        }</code>
+            </pre>
+
+        <span>
+          More examples at the link:
+          <a href=" https://github.com/IgorLutoshkin/CODEWARS-JS.git">
+            https://github.com/IgorLutoshkin/CODEWARS-JS.git</a
+          >
+        </span>
       </section>
 
       <section>
@@ -76,31 +115,6 @@
           <li>CSS</li>
           <li>Git</li>
           <li>JS (a little)</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Code examples 'Codewars'</h2>
-        <span>
-          /*Given a random non-negative number, you have to return the digits of
-          this number within an array in reverse order.*/ function digitize(n) {
-          let a = (Array.from(String(n), Number)).reverse(); return a; }
-        </span>
-        <span>
-          More examples at the link:
-          <a href=" https://github.com/IgorLutoshkin/CODEWARS-JS.git">
-            https://github.com/IgorLutoshkin/CODEWARS-JS.git</a
-          >
-        </span>
-      </section>
-
-      <section>
-        <h2>Contacts for communication</h2>
-        <ul>
-          <li>E-mail: ig.yarij@mail.ru</li>
-          <li>GitHub: https://github.com/IgorLutoshkin</li>
-          <li>VK: https://vk.com/id651344516</li>
-          <li>Stepik: https://stepik.org/users/380788903</li>
         </ul>
       </section>
     </div>
