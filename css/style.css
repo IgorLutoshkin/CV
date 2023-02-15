@@ -52,20 +52,25 @@ h1 {
 .head-wrap {
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left:195px;
+  padding-left: 195px;
   background-color: chartreuse;
 }
 /* start education */
-.education-title{
-  padding-bottom: 25px;
+.education-title {
+  padding-bottom: 20px;
   font-size: 37px;
 }
-.title-list-item{
-  font-size: 30px;
+.education-list{
+  padding-left: 20px;
+}
+.title-list-item {
+  font-weight: 600;
+  font-size: 27px;
+}
+.education-list-item {
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 35px;
 }
 
-
-
-
-
-/*  */
+/* end education */
