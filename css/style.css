@@ -49,6 +49,10 @@ h1 {
   margin-bottom: 27px;
   font-size: 74px;
 }
+h2 {
+  padding-bottom: 20px;
+  font-size: 37px;
+}
 
 .head-desc {
   display: block;
@@ -61,10 +65,7 @@ h1 {
   background-color: rgb(92, 187, 255);
 }
 /* start education */
-.education-title {
-  padding-bottom: 20px;
-  font-size: 37px;
-}
+
 .education-list {
   padding-left: 20px;
 }
@@ -78,3 +79,11 @@ h1 {
   line-height: 35px;
 }
 /* end education */
+
+/* start about me */
+.about-desc {
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 35px;
+}
+/* end about me */
