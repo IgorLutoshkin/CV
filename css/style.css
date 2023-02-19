@@ -36,9 +36,14 @@ section {
   width: 100%;
 }
 
+img {
+  width: 565px;
+}
+
 .head-title {
   width: 565px;
 }
+
 h1 {
   margin: 0 auto;
   margin-bottom: 27px;
@@ -52,15 +57,15 @@ h1 {
 .head-wrap {
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 195px;
-  background-color: chartreuse;
+  padding-left: 30px;
+  background-color: rgb(92, 187, 255);
 }
 /* start education */
 .education-title {
   padding-bottom: 20px;
   font-size: 37px;
 }
-.education-list{
+.education-list {
   padding-left: 20px;
 }
 .title-list-item {
@@ -72,5 +77,4 @@ h1 {
   font-size: 18px;
   line-height: 35px;
 }
-
 /* end education */
