@@ -24,12 +24,8 @@ ul {
 
 .content {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns:2fr 4fr;
   column-gap: 30px;
-}
-
-section {
-  grid-column: span 3;
 }
 
 .about {
@@ -37,11 +33,14 @@ section {
 }
 
 img {
-  width: 565px;
+  width: 450.31px;
 }
 
 .head-title {
   width: 565px;
+}
+.head-pic {
+  background-color: rgb(58, 63, 61);
 }
 
 h1 {
@@ -50,11 +49,12 @@ h1 {
   font-size: 74px;
 }
 h2 {
+  padding-left: 20px;
   padding-bottom: 20px;
   font-size: 37px;
 }
 p {
-  padding-left: 30px;
+  padding-left: 50px;
   padding-bottom: 20px;
   font-size: 18px;
   line-height: 30px;
@@ -68,9 +68,16 @@ p {
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 30px;
-  background-color: rgb(92, 187, 255);
+  background-color: aquamarine;
 }
 .title-list-item {
   font-weight: 600;
   font-size: 27px;
+}
+
+.education,
+.contacts,
+.code {
+  background-color: rgb(58, 63, 61);
+  color: white;
 }
