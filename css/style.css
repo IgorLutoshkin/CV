@@ -24,7 +24,7 @@ ul {
 
 .content {
   display: grid;
-  grid-template-columns:2fr 4fr;
+  grid-template-columns: 2fr 4fr;
   column-gap: 30px;
 }
 
@@ -54,6 +54,7 @@ h2 {
   font-size: 37px;
 }
 p {
+  padding-right: 20px;
   padding-left: 50px;
   padding-bottom: 20px;
   font-size: 18px;
@@ -67,8 +68,8 @@ p {
 .head-wrap {
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 30px;
-  background-color: aquamarine;
+  padding-left: 145px;
+  background-color: rgb(255, 230, 0);
 }
 .title-list-item {
   font-weight: 600;
