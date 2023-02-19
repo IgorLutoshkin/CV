@@ -53,6 +53,12 @@ h2 {
   padding-bottom: 20px;
   font-size: 37px;
 }
+p {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+}
 
 .head-desc {
   display: block;
@@ -64,26 +70,7 @@ h2 {
   padding-left: 30px;
   background-color: rgb(92, 187, 255);
 }
-/* start education */
-
-.education-list {
-  padding-left: 20px;
-}
 .title-list-item {
   font-weight: 600;
   font-size: 27px;
 }
-.education-list-item {
-  padding-bottom: 20px;
-  font-size: 18px;
-  line-height: 35px;
-}
-/* end education */
-
-/* start about me */
-.about-desc {
-  padding-bottom: 20px;
-  font-size: 18px;
-  line-height: 35px;
-}
-/* end about me */
