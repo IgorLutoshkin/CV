@@ -17,7 +17,7 @@ ul {
 
 .head {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-direction: row-reverse;
   align-items: center;
 }
@@ -32,8 +32,12 @@ ul {
   width: 100%;
 }
 
-img {
+.head-pic{
   width: 450.31px;
+  height: 543.06px;
+}
+img {
+  width: inherit;
 }
 
 .head-title {
@@ -69,7 +73,7 @@ p {
 .head-wrap {
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 143px;
+  padding-left: 145px;
   background-color: rgb(255, 230, 0);
 }
 .title-list-item {
@@ -90,6 +94,8 @@ p {
   padding-top: 40px;
 }
 /*  */
+
+
 
 /*  */
 .line {
