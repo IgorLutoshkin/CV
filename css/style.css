@@ -34,7 +34,7 @@ ul {
 
 .head-pic{
   width: 450.31px;
-  height: 543.06px;
+  height: 542.06px;
 }
 img {
   width: inherit;
@@ -67,6 +67,7 @@ p {
 }
 
 .head-desc {
+  padding-left: 0;
   display: block;
   font-size: 37px;
 }
@@ -90,7 +91,7 @@ p {
 }
 
 /*  */
-.education {
+.education, .contacts, .work {
   padding-top: 40px;
 }
 /*  */
