@@ -11,46 +11,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-ul {
-  list-style: none;
-}
-
-.head {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row-reverse;
-  align-items: center;
-}
-
-.content {
-  display: grid;
-  grid-template-columns: 2fr 4fr;
-  column-gap: 30px;
-}
-
-.about {
-  width: 100%;
-}
-
-.head-pic{
-  width: 450.31px;
-  height: 542.06px;
-}
-img {
-  width: inherit;
-}
-
-.head-title {
-  width: 565px;
-}
-
 h1 {
   margin: 0 auto;
   margin-bottom: 27px;
   font-size: 74px;
 }
-.surname {
-  font-weight: normal;
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: inherit;
 }
 
 h2 {
@@ -65,27 +37,12 @@ p {
   font-size: 18px;
   line-height: 30px;
 }
-
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
-.head-desc {
-  padding-left: 0;
-  display: block;
-  font-size: 37px;
-}
-.head-wrap {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 145px;
-  background-color: rgb(255, 230, 0);
-}
-.title-list-item {
-  font-weight: 600;
-  font-size: 27px;
-}
 
+/* ************************************* */
 .education,
 .contacts,
 .code,
@@ -93,16 +50,72 @@ a{
   background-color: rgb(48, 51, 50);
   color: white;
 }
-
-/*  */
-.education, .contacts, .work {
+.education,
+.contacts,
+.code {
   padding-top: 40px;
 }
-/*  */
+/* ************************************* */
+
+/* end setting */
 
 
 
-/*  */
+/* start head */
+.head {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.head-wrap {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 145px;
+  background-color: rgb(255, 230, 0);
+}
+
+.head-pic {
+  width: 450.31px;
+  height: 542.06px;
+}
+
+.head-title {
+  width: 565px;
+}
+
+.surname {
+  font-weight: normal;
+}
+
+.head-desc {
+  padding-left: 0;
+  display: block;
+  font-size: 37px;
+}
+
+/* end head */
+
+/* start content */
+.content {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  column-gap: 30px;
+}
+/* end content */
+
+/* start education */
+.title-list-item {
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.line-wrap {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
 .line {
   display: block;
   width: 100%;
@@ -110,18 +123,23 @@ a{
   background-color: black;
 }
 
-.line-wrap {
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
 .line-left {
   background-color: rgb(255, 230, 0);
 }
-/*  */
-.cont-icon{
+/* end education */
+
+/* start about */
+.about {
+  width: 100%;
+}
+/* end about */
+
+/* start contacts */
+.cont-icon {
   display: block;
 }
-.item-desc{
+.item-desc {
   display: flex;
   align-items: center;
 }
+/* end contacts */
