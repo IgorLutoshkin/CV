@@ -78,6 +78,13 @@ a {
   width: 450.31px;
   height: 542.06px;
 }
+.pic-avatar {
+  filter: grayscale(1); /* Черно-белый фильтр для изображения */
+  transition: 1s; /* Время изменения цвета изображения */
+}
+.pic-avatar:hover {
+  filter: grayscale(0); /* Цветное изображение при наведении */
+}
 
 .head-title {
   width: 565px;
@@ -144,6 +151,6 @@ a {
 
 /* code */
 .code-link:hover {
-  color:rgb(255, 230, 0);
+  color: rgb(255, 230, 0);
 }
 /* code */
