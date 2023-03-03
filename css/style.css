@@ -140,9 +140,7 @@ a {
 /* end about */
 
 /* start contacts */
-.cont-icon {
-  display: block;
-}
+
 .item-desc {
   display: flex;
   align-items: center;
@@ -172,3 +170,9 @@ a {
   color: rgb(255, 255, 255);
 }
 /* end work */
+
+/* start skills */
+.skills-icon{
+  padding-right: 10px;
+}
+/* end skills */
