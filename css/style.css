@@ -76,13 +76,13 @@ a {
 
 .head-pic {
   display: block;
-  width: 100%;
+
 }
 .pic-avatar {
   padding-top: 15px;
+  padding-left: 20px;
   display: block;
-  
-  margin: 0 auto;
+  width: 100%;
 }
 
 .head-title {
