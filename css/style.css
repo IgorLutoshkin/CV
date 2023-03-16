@@ -76,8 +76,13 @@ a {
 
 .head-pic {
   display: block;
-  width: 450.31px;
-  height: 542.06px;
+
+}
+.pic-avatar {
+  padding-top: 15px;
+  padding-left: 20px;
+  display: block;
+  width: 100%;
 }
 
 .head-title {
@@ -126,8 +131,8 @@ a {
   background-color: rgb(255, 230, 0);
 }
 
-.item-desk__link:hover{
-  color:rgb(255, 230, 0);
+.item-desk__link:hover {
+  color: rgb(255, 230, 0);
 }
 /* end education */
 
@@ -170,7 +175,7 @@ a {
 /* end work */
 
 /* start skills */
-.skills-icon{
+.skills-icon {
   padding-right: 10px;
 }
 /* end skills */
