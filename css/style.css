@@ -108,6 +108,9 @@ a {
 /* end content */
 
 /* start education */
+.education{
+  display: block;
+}
 .title-list-item {
   font-weight: 600;
   font-size: 27px;
@@ -136,6 +139,7 @@ a {
 
 /* start about */
 .about {
+  display: block;
   width: 100%;
 }
 /* end about */
@@ -177,7 +181,11 @@ a {
 /* end work */
 
 /* start skills */
+.skills{
+  display: block;
+}
 .skills-icon {
   padding-right: 10px;
 }
+
 /* end skills */
