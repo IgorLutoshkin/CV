@@ -149,6 +149,10 @@ a {
   display: flex;
   align-items: center;
 }
+.link-contact:hover{
+  color: rgb(255, 240, 106);
+}
+
 /* end contacts */
 
 /* code */
