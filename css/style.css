@@ -75,6 +75,7 @@ a {
 }
 
 .head-pic {
+  display: block;
   width: 450.31px;
   height: 542.06px;
 }
