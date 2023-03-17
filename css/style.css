@@ -44,14 +44,11 @@ a {
 /* ************************************* */
 .education,
 .contacts,
-.code,
-.head-pic {
+.code {
   background-color: rgb(48, 51, 50);
   color: white;
 }
-.education,
-.contacts,
-.code {
+section{
   padding-top: 40px;
 }
 /* ************************************* */
@@ -74,13 +71,11 @@ a {
 }
 
 .head-pic {
-  width: 450.3px;
+  display: block;
+  width: 100%;
 }
 .pic-avatar {
   display: block;
-  padding-top: 15px;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .head-title {
@@ -103,12 +98,12 @@ a {
 .content {
   display: grid;
   grid-template-columns: 2fr 4fr;
-  column-gap: 0px;
 }
 /* end content */
 
 /* start education */
 .education {
+  padding-top: 60px;
   display: block;
 }
 .title-list-item {
