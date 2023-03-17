@@ -41,10 +41,6 @@ a {
   text-decoration: none;
   color: #fff;
 }
-section {
-  display: block;
-}
-
 /* ************************************* */
 .education,
 .contacts,
@@ -107,7 +103,7 @@ section {
 .content {
   display: grid;
   grid-template-columns: 2fr 4fr;
-  column-gap: 30px;
+  column-gap: 0px;
 }
 /* end content */
 
