@@ -47,10 +47,14 @@ a {
 .code {
   background-color: rgb(48, 51, 50);
   color: white;
-}
-section{
   padding-top: 40px;
 }
+.about,
+.skills,
+.work {
+  padding-top: 20px;
+}
+
 /* ************************************* */
 
 /* end setting */
@@ -66,13 +70,13 @@ section{
 .head-wrap {
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 145px;
+  /* padding-left: 145px; */
   background-color: rgb(255, 230, 0);
 }
 
 .head-pic {
   display: block;
-  width: 100%;
+  width: 450.3px;
 }
 .pic-avatar {
   display: block;
@@ -98,12 +102,12 @@ section{
 .content {
   display: grid;
   grid-template-columns: 2fr 4fr;
+  column-gap: 0px;
 }
 /* end content */
 
 /* start education */
 .education {
-  padding-top: 60px;
   display: block;
 }
 .title-list-item {
