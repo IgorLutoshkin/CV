@@ -41,6 +41,9 @@ a {
   text-decoration: none;
   color: #fff;
 }
+section {
+  display: block;
+}
 
 /* ************************************* */
 .education,
@@ -75,12 +78,13 @@ a {
 }
 
 .head-pic {
-  width: 450.30px;
-
+  width: 450.3px;
 }
 .pic-avatar {
   display: block;
   padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .head-title {
@@ -108,7 +112,7 @@ a {
 /* end content */
 
 /* start education */
-.education{
+.education {
   display: block;
 }
 .title-list-item {
@@ -139,7 +143,6 @@ a {
 
 /* start about */
 .about {
-  display: block;
   width: 100%;
 }
 /* end about */
@@ -150,7 +153,7 @@ a {
   display: flex;
   align-items: center;
 }
-.link-contact:hover{
+.link-contact:hover {
   color: rgb(255, 240, 106);
 }
 
@@ -181,9 +184,6 @@ a {
 /* end work */
 
 /* start skills */
-.skills{
-  display: block;
-}
 .skills-icon {
   padding-right: 10px;
 }
