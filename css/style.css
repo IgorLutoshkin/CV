@@ -234,6 +234,7 @@ a {
 /* start education */
 .education {
   display: block;
+  margin-top: -1px;
 }
 .title-list-item {
   font-weight: 600;
@@ -268,7 +269,9 @@ a {
 /* end about */
 
 /* start contacts */
-
+.contacts{
+  margin-top: -1px;
+}
 .item-desc {
   display: flex;
   align-items: center;
@@ -280,6 +283,9 @@ a {
 /* end contacts */
 
 /* code */
+.code{
+  margin-top: -1px;
+}
 .code-link {
   color: rgb(255, 230, 0);
 }
