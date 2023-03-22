@@ -134,9 +134,9 @@ table {
 }
 
 body {
-  padding: 30px;
+  max-width: 1280px;
+  padding:я  30px;
   margin: 0 auto;
-  width: 1220px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -283,24 +283,14 @@ a {
 .code-link {
   color: rgb(255, 230, 0);
 }
-.code-link:hover {
-  padding: 5px;
-  border-radius: 12px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(255, 230, 0);
-}
+
 /* code */
 
 /* start work */
 .work-link {
   color: rgb(153, 153, 153);
 }
-.work-link:hover {
-  padding: 5px;
-  border-radius: 12px;
-  background-color: rgb(255, 230, 0);
-  color: rgb(255, 255, 255);
-}
+
 /* end work */
 
 /* start skills */
