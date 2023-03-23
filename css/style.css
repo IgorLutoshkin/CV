@@ -373,6 +373,12 @@ pre {
   }
 }
 @media screen and (max-width: 320px) {
+  .head-title {
+    font-size: 34px;
+  }
+  .head-desc{
+    font-size: 20px;
+  }
   pre {
     font-size: max(1vw, 0.5rem);
   }
