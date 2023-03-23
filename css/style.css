@@ -311,6 +311,9 @@ pre {
 /* end skills */
 
 @media screen and (max-width: 1050px) {
+  body {
+    padding: 10px;
+  }
   .head-wrap {
     padding-left: 50px;
   }
@@ -332,7 +335,7 @@ pre {
   .about,
   .skills,
   .work {
-    background-color:  rgba(48, 51, 50, 0.103);
+    background-color: rgba(48, 51, 50, 0.103);
   }
 
   .head {
@@ -343,13 +346,12 @@ pre {
   .head-pic {
     width: 100%;
   }
-  .head-wrap{
+  .head-wrap {
     padding: 20px;
-    
   }
 
   .head-title {
-    margin-bottom:  15px;
+    margin-bottom: 15px;
     font-size: 44px;
     text-align: center;
   }
@@ -365,3 +367,13 @@ pre {
   }
 }
 
+@media screen and (max-width: 375px) {
+  pre {
+    font-size: max(1vw, 0.6rem);
+  }
+}
+@media screen and (max-width: 320px) {
+  pre {
+    font-size: max(1vw, 0.5rem);
+  }
+}
