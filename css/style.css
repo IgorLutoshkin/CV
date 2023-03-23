@@ -312,7 +312,7 @@ pre {
 
 @media screen and (max-width: 1050px) {
   body {
-    padding: 10px;
+    padding: 0 10px;
   }
   .head-wrap {
     padding-left: 50px;
