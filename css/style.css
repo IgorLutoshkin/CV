@@ -257,9 +257,10 @@ a {
   background-color: rgb(255, 230, 0);
 }
 
-.item-desk__link:hover {
+.item-desk__link {
   color: rgb(255, 230, 0);
 }
+
 /* end education */
 
 /* start about */
@@ -284,10 +285,10 @@ a {
 
 /* code */
 .code {
-  margin-top: -1px;
+  margin-top: -2px;
 }
 pre {
-  font-size: max(0.9vw, 0.25rem);
+  font-size: max(0.9vw, 0.30rem);
 }
 
 .code-link {
@@ -312,7 +313,7 @@ pre {
 
 @media screen and (max-width: 1050px) {
   body {
-    padding: 0 10px;
+    padding: 0;
   }
   .head-wrap {
     padding-left: 50px;
