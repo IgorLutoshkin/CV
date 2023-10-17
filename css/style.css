@@ -289,10 +289,10 @@ a {
   padding-left: 50px;
 }
 .link {
-  display: block;
+  display: inline-block;
   margin: 20px;
   font-size: 18px;
-transition: .3s;
+  transition: .3s;
 }
 
 .link:hover {
