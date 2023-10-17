@@ -290,7 +290,7 @@ a {
 }
 .link {
   display: inline-block;
-  margin: 20px;
+  margin: 20px 20px 0 20px;
   font-size: 18px;
   transition: .3s;
 }
